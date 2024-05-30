@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.skills-section {
+    margin: 40px 0;
+    align-items: center;
+}
+
+.skills-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+}
+
+.skills-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-section ul li {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    margin: 8px 0;
+}
+
+.skills-section ul li::before {
+    content: '✔';
+    margin-right: 10px;
+    color: #333;
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+}
+
+footer p {
+    margin: 0;
+    color: #666;
+}
